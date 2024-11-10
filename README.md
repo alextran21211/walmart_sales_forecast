@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# walmart_sales_forecast
-Sales forecasting using the Walmart database with various machine learning models
-=======
 # Walmart Sales Forecast
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
@@ -60,7 +56,3 @@ Sales Forecasting for Walmart database using different models
     │
     └── plots.py                <- Code to create visualizations
 ```
-
---------
-
->>>>>>> 3d50e6c (Initial commit with project files and enviroment.yml)

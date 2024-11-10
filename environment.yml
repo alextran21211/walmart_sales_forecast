@@ -1,0 +1,20 @@
+name: walmart_sales_forecast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.5
+  - black
+  - flake8
+  - isort
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .

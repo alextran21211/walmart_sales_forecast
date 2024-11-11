@@ -1,0 +1,42 @@
+Features Data:
+    Store        Date  Temperature  Fuel_Price  MarkDown1  MarkDown2  \
+0      1  2010-02-05        42.31       2.572        NaN        NaN   
+1      1  2010-02-12        38.51       2.548        NaN        NaN   
+2      1  2010-02-19        39.93       2.514        NaN        NaN   
+3      1  2010-02-26        46.63       2.561        NaN        NaN   
+4      1  2010-03-05        46.50       2.625        NaN        NaN   
+
+   MarkDown3  MarkDown4  MarkDown5         CPI  Unemployment  IsHoliday  
+0        NaN        NaN        NaN  211.096358         8.106      False  
+1        NaN        NaN        NaN  211.242170         8.106       True  
+2        NaN        NaN        NaN  211.289143         8.106      False  
+3        NaN        NaN        NaN  211.319643         8.106      False  
+4        NaN        NaN        NaN  211.350143         8.106      False  
+Stores Data:
+    Store Type    Size
+0      1    A  151315
+1      2    A  202307
+2      3    B   37392
+3      4    A  205863
+4      5    B   34875
+Train Data:
+    Store  Dept        Date  Weekly_Sales  IsHoliday
+0      1     1  2010-02-05      24924.50      False
+1      1     1  2010-02-12      46039.49       True
+2      1     1  2010-02-19      41595.55      False
+3      1     1  2010-02-26      19403.54      False
+4      1     1  2010-03-05      21827.90      False
+Test Data:
+    Store  Dept        Date  IsHoliday
+0      1     1  2012-11-02      False
+1      1     1  2012-11-09      False
+2      1     1  2012-11-16      False
+3      1     1  2012-11-23       True
+4      1     1  2012-11-30      False
+Sample Submission:
+                Id  Weekly_Sales
+0  1_1_2012-11-02             0
+1  1_1_2012-11-09             0
+2  1_1_2012-11-16             0
+3  1_1_2012-11-23             0
+4  1_1_2012-11-30             0
